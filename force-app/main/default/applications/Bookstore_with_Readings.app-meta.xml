@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>reading</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Bookstore with Readings</label>
+    <navType>Standard</navType>
+    <tabs>Author__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Publisher__c</tabs>
+    <tabs>BookSearch</tabs>
+    <tabs>Reading__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Bookstore_with_Readings_UtilityBar</utilityBar>
+</CustomApplication>

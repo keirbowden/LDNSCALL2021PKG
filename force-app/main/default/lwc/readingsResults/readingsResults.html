@@ -1,0 +1,33 @@
+<template>
+    <div class="slds-card">
+        <div class="slds-p-around_medium">
+            <div class="slds-text-heading_medium">Reading Results</div>
+        </div>
+    </div>
+    <template if:true={noMatches}>
+        <div class="slds-card">
+            <div class="slds-p-around_medium">
+                <div class="slds-text-heading_small">No matches</div>
+            </div>
+        </div>
+    </template>
+    <template if:false={noMatches}>
+        <template for:each={readings} for:item="reading">
+            <div key={reading.id} class="slds-p-around_medium">
+                <lightning-card>
+                    <h3 slot="title">
+                        {reading.Name}
+                    </h3>
+                    <div slot="footer">
+                        Starts <lightning-formatted-date-time value={reading.Starts__c} hour="2-digit" minute="2-digit"
+                            year="numeric" month="2-digit" day="2-digit"></lightning-formatted-date-time>,&nbsp;
+                        Ends <lightning-formatted-date-time value={reading.Ends__c} hour="2-digit" minute="2-digit">
+                        </lightning-formatted-date-time>
+                    </div>
+                    <p class="slds-p-horizontal_small">{reading.Author__r.Name} reads from their new
+                        {reading.Book__r.Genre__c} book {reading.Book__r.Name}</p>
+                </lightning-card>
+            </div>
+        </template>
+    </template>
+</template>
