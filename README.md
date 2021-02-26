@@ -6,7 +6,7 @@ Repository for the org-dependent package demonstrated in my London's Calling 202
 
 ### Pre-requisites
 
-Install the metadata from the "Happy Soup" repository for this session, which you can find at [bobbuzz.me.uk/LC2021MAIN](bobbuzz.me.uk/LC2021MAIN)
+Install the metadata from the "Happy Soup" repository for this session, which you can find at [https://bobbuzz.me.uk/LC2021MAIN](https://bobbuzz.me.uk/LC2021MAIN)
 
 ### Instructions
 
