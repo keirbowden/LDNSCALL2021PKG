@@ -1,0 +1,25 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "LDNSCALL2021",
+            "versionName": "ver 0.2",
+            "versionNumber": "0.2.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "50.0",
+    "packageAliases": {
+        "LDNSCALL2021": "0Ho4L000000XZAMSA4",
+        "LDNSCALL2021@0.1.0-1": "04t4L000000Y1XeQAK",
+        "LDNSCALL2021@0.2.0-1": "04t4L000000Y1XjQAK",
+        "LDNSCALL2021@0.2.0-2": "04t4L000000Y28yQAC",
+        "LDNSCALL2021@0.2.0-3": "04t4L000000Y29DQAS",
+        "LDNSCALL2021@0.2.0-4": "04t4L000000Y29IQAS",
+        "LDNSCALL2021@0.2.0-5": "04t4L000000Y29NQAS",
+        "LDNSCALL2021@0.2.0-6": "04t4L000000Y29SQAS",
+        "LDNSCALL2021@0.2.0-7": "04t4L000000Y29XQAS"
+    }
+}
